@@ -1,7 +1,7 @@
 /* eslint no-console:0 */
 // import {install as offlineInstall} from 'offline-plugin/runtime'
-import {onLoad} from './app.js'
-import {$on} from './helpers.js'
+import {onLoad} from './app.mjs'
+import {$on} from './helpers.mjs'
 
 
 $on(window, 'load', onLoad)

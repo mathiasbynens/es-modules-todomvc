@@ -1,4 +1,4 @@
-import {updateTodo} from './todo.js'
+import {updateTodo} from './todo.mjs'
 
 export function onLoad() { // eslint-disable-line import/prefer-default-export
   updateTodo()
